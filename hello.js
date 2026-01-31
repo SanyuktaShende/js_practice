@@ -7,3 +7,10 @@ function sum(num1, num2){
 	let c = num1 + num2;
 	return c;
 }
+
+let username = "San";
+
+let obj ={};
+let str1 = `${username}, drama`;
+let arr = [];
+let regexxx = /abc/;
