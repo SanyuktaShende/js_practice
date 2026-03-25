@@ -14,3 +14,6 @@ let obj ={};
 let str1 = `${username}, drama`;
 let arr = [];
 let regexxx = /abc/;
+
+console.log(`The type of number is: ${typeof num1}`);
+
