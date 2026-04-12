@@ -84,3 +84,20 @@ console.log(fruits);
 
 Functions: In JavaScript, functions are a fundamental building block of the language, functions are the reusable piece of code that can be called and executed at any point in our program. 
 
+
+function sum(x, y){
+    let result = x + y;
+    return result;
+}
+
+let output = sum(3, 8);
+console.log(output);         // 11
+```
+
+//anonymous ffunctioon
+
+```
+var add = function(x, y) {
+  return x + y;
+};
+```
