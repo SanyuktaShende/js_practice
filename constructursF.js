@@ -38,3 +38,8 @@ class Human {
 
 let obj = new Human('San', 12);
 console.log(obj.nameAndAge);
+
+setTimeout(() => {
+  console.log("Still running...");
+}, 3000);
+

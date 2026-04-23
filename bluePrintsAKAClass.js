@@ -33,4 +33,9 @@ console.log(user1.name);     // ✅ Sanyukta (public)
 console.log(user1.age()); // ✅ 24 (access via method)
 
 console.log(user1.#age);     // ❌ Error (private)
+
+
+
+
+
 ```
