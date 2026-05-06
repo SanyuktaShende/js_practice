@@ -64,3 +64,4 @@ document.querySelectorAll(selector);
 Points to remember:
 The basic syntax for query selectors involves using the document object followed by the querySelector() or querySelectorAll() method.
 Use querySelector() for selecting a single element and querySelectorAll() for selecting multiple elements.
+```
