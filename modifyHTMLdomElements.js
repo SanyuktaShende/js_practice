@@ -17,5 +17,20 @@ let newPara = 'U better be joking';
 myElement.innerHTML = newPara;
 console.log(content);
 
+/* innerText
+The innerText property retrieves or sets the text content of the specified element, excluding any HTML tags.
+ It represents only the visible text within the element, without considering its child elements.
+
+
+*/ 
+
+<p style="display: none">This has a property Hidden</p>
+let myElement1 = document.getElementById("myPara");
+     
+         //Now retrieving innerText of the selected element
+         let content1 = myElement1.innerText;
+     
+         console.log(content);
+
 
 
